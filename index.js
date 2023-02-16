@@ -1,9 +1,15 @@
-const { prompt } = require("inquirer");
+const start = async () => {
+  const { prompt } = await import('inquirer');
+}
+
 const db = require("./db");
 const cTable = require("console.table");
 
 require("dotenv").config();
 require("console.table");
+
+teamStart();
+
 
 function teamStart() {
   runPrompts();
@@ -220,5 +226,3 @@ function createEmployee() {
       .then(() => runPrompts())
       .catch(err => console.log(err));
   }
-
-teamStart ();

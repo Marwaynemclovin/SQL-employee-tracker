@@ -6,17 +6,16 @@
     },
     "version": "1.0.0",
     "main": "index.js",
-
     "dependencies": {
         "console.table": "^0.10.0",
+        "dotenv": "^16.0.3",
         "inquirer": "^9.1.4",
         "mysql": "^2.18.1"
     },
-
     "repository": {
         "type": "git",
         "url": "https://github.com/Marwaynemclovin/SQL-employee-tracker"
-      },
-      "author": "Marwin Manlangit",
-      "license": "ISC"
+    },
+    "author": "Marwin Manlangit",
+    "license": "ISC"
 }
