@@ -11,16 +11,18 @@ Command-line application which allows for the management of an employee database
 Must npm i as there are dependencies such as console.table, dotenv, inquirer, and mysql.
 
 ## File Structure
+```
 ├── .env
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
 ├── README.md
 ├── db
-|  └── connections.js
-|  └── employeeDB.js
-|  └── schema.sql
-|  └── seeds.sql
+   └── connections.js
+   └── employeeDB.js
+   └── schema.sql
+   └── seeds.sql
+```
 
 ## License
 Copyright (c) [2022] [Marwin Manlangit]
