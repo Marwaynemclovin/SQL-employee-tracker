@@ -1,0 +1,22 @@
+{
+    "name": "sql-employee-tracker",
+    "description": "Command line app that manages an employe database.",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "version": "1.0.0",
+    "main": "index.js",
+
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "inquirer": "^9.1.4",
+        "mysql": "^2.18.1"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Marwaynemclovin/SQL-employee-tracker"
+      },
+      "author": "Marwin Manlangit",
+      "license": "ISC"
+}
